@@ -28,13 +28,9 @@ body {
 .button-image {
     width: 40px;
     padding: 0;
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
 }
 
-/* CSS for Page 2 */
-.page2 {
+.fullpageimage {
     height: 100vh; 
     width: 100vw; 
     background-size: cover; /* Cover the entire page */
@@ -45,6 +41,8 @@ body {
     align-items: center;
     text-align: center;
 }
+
+/* CSS for Page 2 */
 .header {
     color: #ffffff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -54,34 +52,7 @@ body {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
 }
 .button-corner {
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-}
-.button-corner:hover {
-    transform: scale(1.1);
-}
-.button-corner img {
-    width: 100px;
-}
-
-/* CSS for Page 3 */
-.page3 { 
-    height: 100vh; 
-    width: 100vw; 
-    background-size: cover; /* Cover the entire page */
-    background-position: center; /* Center image position */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.button-corner {
+    width: 40px;
     position: absolute;
     bottom: 30px;
     right: 30px;
@@ -141,24 +112,9 @@ body {
     align-items: center;
     text-align: center;
 }
-.button-corner {
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-}
-.button-corner:hover {
-    transform: scale(1.1);
-}
-.button-corner img {
-    width: 100px;
-}
 
 /* CSS for Page 6 */
-.page 6 { 
+.page6 { 
     height: 100vh; 
     width: 100vw; 
     background-image: url('images/page6.jpg'); /* Link to page 6 jpg background */
@@ -172,37 +128,8 @@ body {
    }
 ******************_______________________
 
-/* CSS for Page 7 */
-.page 7 { 
-    height: 100vh; 
-    width: 100vw; 
-    background-image: url('images/page7.jpg'); /* Link to page 7 jpg background */
-    background-size: cover; /* Cover the entire page */
-    background-position: center; /* Center image position */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-   }
-.button-corner {
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-}
-.button-corner:hover {
-    transform: scale(1.1);
-}
-.button-corner img {
-    width: 100px;
-}
-
 /* CSS for Page 8 */
-.page 8 { 
+.page8 { 
     height: 100vh; 
     width: 100vw; 
     background-image: url('images/page8.jpg'); /* Link to page 8 jpg background */
@@ -216,34 +143,6 @@ body {
    }
 ******************_______________________
 
-/* CSS for Page 9 */
-.page 9 { 
-    height: 100vh; 
-    width: 100vw; 
-    background-image: url('images/page9.jpg'); /* Link to page 9 jpg background */
-    background-size: cover; /* Cover the entire page */
-    background-position: center; /* Center image position */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-   }
-.button-corner {
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-}
-.button-corner:hover {
-    transform: scale(1.1);
-}
-.button-corner img {
-    width: 100px;
-}
 
 /* CSS for Page 10 */
 .page 10 { 
@@ -260,33 +159,6 @@ body {
    }
 ******************_______________________
 
-/* CSS for Page 11 */
-.page11 { 
-   height: 100vh; 
-   width: 100vw; 
-   background-size: cover; /* Cover the entire page */
-   background-position: center; /* Center image position */
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-}
-.button-corner {
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-}
-.button-corner:hover {
-    transform: scale(1.1);
-}
-.button-corner img {
-    width: 100px;
-}
 
 
 
