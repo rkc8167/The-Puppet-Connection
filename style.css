@@ -30,12 +30,15 @@ body {
     border: none;
     cursor: pointer;
     padding: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
 }
 .button-image:hover {
     transform: scale(1.1);
 }
 .button-image img {
-    width: 150px;
+    width: 40px;
 }
 
 /* CSS for Page 2 */
