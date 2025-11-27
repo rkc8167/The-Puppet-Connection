@@ -5,89 +5,293 @@ body {
 }
 
 /* Style CSS for each page */
-.page1 {
+/* CSS for Page 1 */
+.page1 { 
     height: 100vh; 
     width: 100vw; 
-    background-color: #eaeaea; /* Set background color to beige */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center image position */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: black;
+    text-align: center;
+}
+.header {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.paragraph {
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+.button-image {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+.button-image:hover {
+    transform: scale(1.1);
+}
+.button-image img {
+    width: 150px;
 }
 
+/* CSS for Page 2 */
 .page2 {
     height: 100vh; 
     width: 100vw; 
-    background-image: url('page2bg.jpg'); /* Link to page 2 jpg background */
     background-size: cover; /* Cover the entire page */
     background-position: center; /* Center image position */
     display: flex;
-   }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.paragraph {
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+.button-corner {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+.button-corner:hover {
+    transform: scale(1.1);
+}
+.button-corner img {
+    width: 100px;
+}
 
-.page 3 { 
+/* CSS for Page 3 */
+.page3 { 
     height: 100vh; 
     width: 100vw; 
-    background-image: url('page3bg.jpg'); /* Link to page 3 jpg background */
     background-size: cover; /* Cover the entire page */
     background-position: center; /* Center image position */
     display: flex;
-   }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.button-corner {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+.button-corner:hover {
+    transform: scale(1.1);
+}
+.button-corner img {
+    width: 100px;
+}
 
-.page 4 { 
+/* CSS for Page 4 */
+.page4 { 
     height: 100vh; 
     width: 100vw; 
-    background-image: url('page4bg.jpg'); /* Link to page 4 jpg background */
-    background-size: cover; /* Cover the entire page */
-    background-position: center; /* Center image position */
+    background-size: cover; 
+    background-position: center; 
     display: flex;
-   }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header {
+    font-size: 1.5rem;          
+    font-weight: 400;           
+    color: #000;                
+    position: absolute;        
+    left: 80px;                
+    top: 180px;                
+}
+.margin {
+    flex: 1; 
+    margin-left: 400px; 
+    max-width: 800px; 
+}
+.body {
+    font-size: 1.1rem; 
+    color: #000;               
+    line-height: 1.8;          
+    margin-bottom: 30px;  
+}
 
-.page 5 { 
+/* CSS for Page 5 */
+.page5 { 
     height: 100vh; 
     width: 100vw; 
-    background-image: url('page5bg.jpg'); /* Link to page 5 jpg background */
     background-size: cover; /* Cover the entire page */
     background-position: center; /* Center image position */
     display: flex;
-   }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.button-corner {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+.button-corner:hover {
+    transform: scale(1.1);
+}
+.button-corner img {
+    width: 100px;
+}
 
+/* CSS for Page 6 */
 .page 6 { 
     height: 100vh; 
     width: 100vw; 
-    background-image: url('page6bg.jpg'); /* Link to page 6 jpg background */
+    background-image: url('images/page6.jpg'); /* Link to page 6 jpg background */
     background-size: cover; /* Cover the entire page */
     background-position: center; /* Center image position */
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
    }
+******************_______________________
 
+/* CSS for Page 7 */
 .page 7 { 
     height: 100vh; 
     width: 100vw; 
-    background-image: url('page7bg.jpg'); /* Link to page 7 jpg background */
+    background-image: url('images/page7.jpg'); /* Link to page 7 jpg background */
     background-size: cover; /* Cover the entire page */
     background-position: center; /* Center image position */
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
    }
+.button-corner {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+.button-corner:hover {
+    transform: scale(1.1);
+}
+.button-corner img {
+    width: 100px;
+}
 
+/* CSS for Page 8 */
 .page 8 { 
- ----
-   }
-
-.page 9 { 
- ----
-   }
-
-.page 10 { 
- ----
-   }
-
-.page 11 { 
-   height: 100vh; 
+    height: 100vh; 
     width: 100vw; 
-    background-image: url('page11bg.jpg'); /* Link to page 11 jpg background */
+    background-image: url('images/page8.jpg'); /* Link to page 8 jpg background */
     background-size: cover; /* Cover the entire page */
     background-position: center; /* Center image position */
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
    }
+******************_______________________
+
+/* CSS for Page 9 */
+.page 9 { 
+    height: 100vh; 
+    width: 100vw; 
+    background-image: url('images/page9.jpg'); /* Link to page 9 jpg background */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center image position */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+.button-corner {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+.button-corner:hover {
+    transform: scale(1.1);
+}
+.button-corner img {
+    width: 100px;
+}
+
+/* CSS for Page 10 */
+.page 10 { 
+    height: 100vh; 
+    width: 100vw; 
+    background-image: url('images/page10.jpg'); /* Link to page 10 jpg background */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center image position */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+******************_______________________
+
+/* CSS for Page 11 */
+.page11 { 
+   height: 100vh; 
+   width: 100vw; 
+   background-size: cover; /* Cover the entire page */
+   background-position: center; /* Center image position */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.button-corner {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+.button-corner:hover {
+    transform: scale(1.1);
+}
+.button-corner img {
+    width: 100px;
+}
+
 
 
