@@ -1,1 +1,93 @@
+/* Consistent font style */ 
+body { 
+  margin: 0;
+    font-family: 'Inconsolata', monospace; 
+}
+
+/* Style CSS for each page */
+.page1 {
+    height: 100vh; 
+    width: 100vw; 
+    background-color: #eaeaea; /* Set background color to beige */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.page2 {
+    height: 100vh; 
+    width: 100vw; 
+    background-image: url('page2bg.jpg'); /* Link to page 2 jpg background */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center image position */
+    display: flex;
+   }
+
+.page 3 { 
+    height: 100vh; 
+    width: 100vw; 
+    background-image: url('page3bg.jpg'); /* Link to page 3 jpg background */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center image position */
+    display: flex;
+   }
+
+.page 4 { 
+    height: 100vh; 
+    width: 100vw; 
+    background-image: url('page4bg.jpg'); /* Link to page 4 jpg background */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center image position */
+    display: flex;
+   }
+
+.page 5 { 
+    height: 100vh; 
+    width: 100vw; 
+    background-image: url('page5bg.jpg'); /* Link to page 5 jpg background */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center image position */
+    display: flex;
+   }
+
+.page 6 { 
+    height: 100vh; 
+    width: 100vw; 
+    background-image: url('page6bg.jpg'); /* Link to page 6 jpg background */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center image position */
+    display: flex;
+   }
+
+.page 7 { 
+    height: 100vh; 
+    width: 100vw; 
+    background-image: url('page7bg.jpg'); /* Link to page 7 jpg background */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center image position */
+    display: flex;
+   }
+
+.page 8 { 
+ ----
+   }
+
+.page 9 { 
+ ----
+   }
+
+.page 10 { 
+ ----
+   }
+
+.page 11 { 
+   height: 100vh; 
+    width: 100vw; 
+    background-image: url('page11bg.jpg'); /* Link to page 11 jpg background */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center image position */
+    display: flex;
+   }
+
 
