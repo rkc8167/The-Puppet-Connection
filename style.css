@@ -26,19 +26,11 @@ body {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
 }
 .button-image {
-    background: none;
-    border: none;
-    cursor: pointer;
+    width: 40px;
     padding: 0;
     display: flex; 
     justify-content: center; 
     align-items: center;
-}
-.button-image:hover {
-    transform: scale(1.1);
-}
-.button-image img {
-    width: 40px;
 }
 
 /* CSS for Page 2 */
