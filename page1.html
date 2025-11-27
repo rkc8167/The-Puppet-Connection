@@ -8,13 +8,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>The Puppet Connection</h1>
-        <div class="circle">
-            <!-- Link the puppet icon to the next page -->
-            <a href="page2.html" class="puppet icon" aria-label="Go to next page"></a>
-        </div>
-    </div>
-    <p>Click the icon to begin your journey.</p>
+    <div class="full-page-image" style="background-image: url('images/page1.jpg');"> <!-- Link to page 1 jpg background -->
+        <h1 class="header">The Puppet Connection</h1> 
+        <p class="paragraph">Click the icon to begin your journey.</p> 
+        
+        <!-- Clickable puppet icon button -->
+        <button class="button-image" onclick="location.href='page2.html';">
+            <img src="images/puppet-icon-white.png" alt="Go to Page 2"> <!-- Link to puppet icon button -->
+        </button>
 </body>
 </html>
