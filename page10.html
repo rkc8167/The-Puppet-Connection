@@ -5,11 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reflection Prompts </title>
     <link rel="stylesheet" href="style.css"> 
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="full-page-image" style="background-image: url('images/page10.jpg');"> <!-- Link to page 10 jpg background -->
+    <div class="fullpageimage" style="background-image: url('images/page10.jpg');"> 
+    <h1 class="header3">04. Reflection</h1> 
+    <div class="questioncontainer"> 
+    <div id="questions">
+        <h2 id="question-text"></h2>
+        <textarea id="answer-textarea" rows="10" cols="50" placeholder="Write your reflection here..."></textarea>
         
-        <!-- Clickable puppet icon button -->
+        <div class="buttons">
+            <button id="next-button">Next</button>
+            <button id="submit-button">Submit </button>
+        </div>
+        </div>
+    </div>
+        
        <img src="images/puppet-icon.png" alt="Go to Page 11" class="button-corner" onclick="location.href='page11.html';">
     </div>
 </body>
