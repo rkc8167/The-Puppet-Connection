@@ -72,7 +72,7 @@ body {
 
 .header1 {
     margin-top: 50px; 
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
     position: absolute; 
     top: 15px; 
@@ -83,7 +83,7 @@ body {
 
 .paragraph1 {
     margin-bottom: 20px; 
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     position: absolute; 
     bottom: 50px; 
