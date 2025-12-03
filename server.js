@@ -10,12 +10,12 @@ io.on('connection', (socket) => {
   console.log('User connected:', socket.id);
 
   socket.on('draw', (data) => {
-    console.log('Drawing data received:', data);
+    // console.log('Drawing data received:', data);
     socket.broadcast.emit('remote-draw', data);
   });
 
   socket.on('redraw', (data) => {
-    console.log('Redraw:', data);
+    // console.log('Redraw:', data);
     socket.broadcast.emit('remote-redraw', data);
   });
 });

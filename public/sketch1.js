@@ -7,9 +7,9 @@ console.log("p5working");
 function setup() {
     createCanvas(600, 400);
     pencolor = color(random(0,255), random(0,255), random(0,255));
-    socket = io.connect('http://localhost:3000');
+    socket = io();
     socket.on('remote-redraw', (data) => {
-        remoteLocations.push(data);  
+        remoteLocations.push(data);
     });
 }
 function draw() {
