@@ -72,7 +72,7 @@ body {
 
 .header1 {
     margin-top: 50px; 
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     position: absolute; 
     top: 15px; 
@@ -96,7 +96,7 @@ body {
     text-align: left;
     position: absolute; 
     top: 15px; 
-    transform: translateX(-180%); 
+    transform: translateX(-170%); 
     margin-bottom: 20px; 
 }
 .twocolumnlayout {
@@ -146,7 +146,7 @@ body {
     text-align: left;
     position: absolute;
     top: 15px; 
-    transform: translateX(-300%); 
+    transform: translateX(-340%); 
     margin-bottom: 20px; 
 }
 .questioncontainer {
@@ -209,7 +209,7 @@ button:hover {
     text-align: left;
     position: absolute; 
     top: 15px; 
-    transform: translateX(-400%); 
+    transform: translateX(-450%); 
     margin-bottom: 20px; 
 }
 
@@ -220,7 +220,7 @@ button:hover {
     text-align: left;
     position: absolute; 
     top: 15px; 
-    transform: translateX(-330%); 
+    transform: translateX(-370%); 
     margin-bottom: 20px; 
 }
 
