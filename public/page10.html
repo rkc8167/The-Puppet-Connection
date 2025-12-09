@@ -3,31 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reflection Prompts </title>
-    <link rel="stylesheet" href="style.css"> 
+    <title>Reflection Prompts</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="script.js" defer></script>
 </head>
+
 <body>
-    <div class="fullpageimage" style="background-image: url('images/page10.jpg');"> 
-    <h3 class="header3">04. Reflection</h3> 
-    <div class="questioncontainer"> 
-    <div id="questions">
-        <h2 id="question-text"></h2>
-        <textarea id="answer-textarea" rows="10" cols="50" placeholder="Write your reflection here..."></textarea>
-        
-        <div class="buttons">
-            <button id="next-button">Next</button>
-            <button id="submit-button">Submit </button>
+    <div class="fullpageimage" style="background-image: url('images/page10.jpg');">
+        <h3 class="header3">04. Reflection</h3>
+
+        <div class="questioncontainer">
+            <div id="questions">
+
+                <h2 id="question-text"></h2>
+
+                <textarea 
+                    id="answer-textarea" 
+                    rows="10" 
+                    cols="50" 
+                    placeholder="Write your reflection here...">
+                </textarea>
+
+                <div class="buttons">
+                    <button id="next-button">Next</button>
+                    <button id="submit-button" style="display:none;">Submit</button>
+                </div>
+
+            </div>
         </div>
-        </div>
-    </div>
-        
-       <img src="images/puppet-icon (1).png" alt="Go to Page 11" class="button-corner" onclick="location.href='page11.html';">
+
+        <img src="images/puppet-icon (1).png" 
+             alt="Go to Page 11" 
+             class="button-corner" 
+             onclick="location.href='page11.html';">
     </div>
 </body>
 </html>
-
-
-
-
-
