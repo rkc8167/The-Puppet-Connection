@@ -5,7 +5,7 @@ let username = prompt("Enter your name:");
 let socket;
 console.log("p5working"); 
 function setup() {
-    createCanvas(600, 400);
+    createCanvas(800, 400);
     pencolor = color(random(0,255), random(0,255), random(0,255));
     socket = io();
     socket.on('remote-redraw', (data) => {
